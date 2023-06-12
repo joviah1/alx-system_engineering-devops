@@ -18,3 +18,6 @@ Describing what each script is doing
 #######Display the first 10 lines of /etc/passwd
 *#!/bin/bash
 *head -n 10 /etc/passwd
+########Write a script that displays the third line of the file iacta.
+*#!/bin/bash
+*head -3 iacta | tail -1
