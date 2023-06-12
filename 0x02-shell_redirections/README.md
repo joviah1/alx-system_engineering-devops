@@ -60,3 +60,6 @@ Describing what each script is doing
 #####################Replace all characters A and c from input to Z and e respectively.
 *#!/bin/bash
 *tr "A" "Z" | tr "c" "e"
+######################Create a script that removes all letters c and C from input
+*#!/bin/bash
+*tr -d "Cc"
