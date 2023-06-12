@@ -23,4 +23,4 @@ Describing what each script is doing
 *head -3 iacta | tail -1
 #########Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 *#!/bin/bash
-*echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+*echo -e "Best School" > "\\\*\\\\\\\'\\\"Best School"\'\\\\*\$\\\\?\\\*\\\*\\\*\\\*\\\*:)
