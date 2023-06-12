@@ -5,4 +5,4 @@ Describing what each script is doing
 *echo "Hello, World"
 ###A script that displays a confused smiley "(Ôo)'
 *#!/bin/bash
-*echo '"(Ôo)'\'
+*echo "(Ôo)'"
