@@ -72,3 +72,6 @@ Describing what each script is doing
 ######################### A command that finds all empty files and directories in the current directory and all sub-directories
 *#!/bin/bash
 *find . -empty | rev | cut -d '/' -f 1 | rev
+##########################A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+*#!/bin/bash
+*find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL=C sort -f
