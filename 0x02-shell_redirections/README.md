@@ -74,4 +74,7 @@ Describing what each script is doing
 *find . -empty | rev | cut -d '/' -f 1 | rev
 ##########################A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 *#!/bin/bash
-*find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL=C sort -f
+*find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+###########################Create a script that decodes acrostics that use the first letter of each line
+*#!/bin/bash
+*cut -c 1 | paste -s -d ''
