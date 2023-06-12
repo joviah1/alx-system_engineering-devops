@@ -59,4 +59,4 @@ Describing what each script is doing
 *grep '^[A-Za-z]' /etc/ssh/sshd_config
 #####################Replace all characters A and c from input to Z and e respectively.
 *#!/bin/bash
-*echo "Input string AcAc" | sed 's/A/Z/g; s/c/e/g'
+*tr "A" "Z" | tr "c" "e"
