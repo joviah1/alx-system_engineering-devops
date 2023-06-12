@@ -54,3 +54,6 @@ Describing what each script is doing
 ###################Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 *#!/bin/bash
 *grep -v "bin" /etc/passwd
+####################Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+*#!/bin/bash
+*grep '^[A-Za-z]' /etc/ssh/sshd_config
