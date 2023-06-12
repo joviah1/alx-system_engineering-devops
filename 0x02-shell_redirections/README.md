@@ -63,3 +63,6 @@ Describing what each script is doing
 ######################Create a script that removes all letters c and C from input
 *#!/bin/bash
 *tr -d "Cc"
+#######################Write a script that reverse its input.
+*#!/bin/bash
+*rev
