@@ -66,3 +66,6 @@ Describing what each script is doing
 #######################Write a script that reverse its input.
 *#!/bin/bash
 *rev
+########################Write a script that displays all users and their home directories, sorted by users.
+*#!/bin/bash
+*cut -d ":" -f1,6 /etc/passwd | sort
