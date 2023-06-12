@@ -42,3 +42,6 @@ Describing what each script is doing
 ###############Create a script that takes a list of words as input and prints only words that appear exactly once.
 *#!/bin/bash
 *sort | uniq -u
+################Display lines containing the pattern “root” from the file /etc/passwd
+*#!/bin/bash
+*grep -i "root" /etc/passwd
