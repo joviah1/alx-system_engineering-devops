@@ -6,3 +6,6 @@ Describing what each script is doing
 ###A script that displays a confused smiley "(Ôo)'
 *#!/bin/bash
 *echo "(Ôo)'"
+####Display the content of the /etc/passwd file.
+*#!/bin/bash
+*cat /etc/passwd
