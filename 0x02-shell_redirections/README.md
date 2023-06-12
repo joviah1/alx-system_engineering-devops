@@ -69,3 +69,6 @@ Describing what each script is doing
 ########################Write a script that displays all users and their home directories, sorted by users.
 *#!/bin/bash
 *cut -d ":" -f1,6 /etc/passwd | sort
+######################### A command that finds all empty files and directories in the current directory and all sub-directories
+*#!/bin/bash
+*find . -empty | rev | cut -d '/' -f 1 | rev
