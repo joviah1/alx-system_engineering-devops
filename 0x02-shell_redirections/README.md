@@ -15,3 +15,6 @@ Describing what each script is doing
 ######Display the last 10 lines of /etc/passwd
 *#!/bin/bash
 *tail -n 10 /etc/passwd
+#######Display the first 10 lines of /etc/passwd
+*#!/bin/bash
+*head -n 10 /etc/passwd
