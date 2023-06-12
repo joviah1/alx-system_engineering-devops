@@ -48,3 +48,6 @@ Describing what each script is doing
 #################Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 *#!/bin/bash
 *grep -c "bin" /etc/passwd
+##################Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+*#!/bin/bash
+*grep -A 3 "root" /etc/passwd
