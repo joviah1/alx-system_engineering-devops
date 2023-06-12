@@ -12,3 +12,6 @@ Describing what each script is doing
 #####Display the content of /etc/passwd and /etc/hosts
 *#!/bin/bash
 *cat /etc/passwd /etc/hosts
+######Display the last 10 lines of /etc/passwd
+*#!/bin/bash
+*tail -n 10 /etc/passwd
