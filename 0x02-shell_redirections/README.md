@@ -51,3 +51,6 @@ Describing what each script is doing
 ##################Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 *#!/bin/bash
 *grep -A 3 "root" /etc/passwd
+###################Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+*#!/bin/bash
+*grep -v "bin" /etc/passwd
