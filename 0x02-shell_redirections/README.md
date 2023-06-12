@@ -33,3 +33,6 @@ Describing what each script is doing
 ############Write a script that deletes all the regular files (not the directories) with a .js
 *#!/bin/bash
 *find . -type f -name "*.js" -delete
+#############Write a script that counts the number of directories and sub-directories in the current directory.
+*#!/bin/bash
+*find . -type d -not -name '.' | wc -l
