@@ -23,7 +23,7 @@ Describing what each script is doing
 *head -3 iacta | tail -1
 #########Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 *#!/bin/bash
-*echo "Best School" > \\\\\\\"'\"Best School\"\\'"\\\\\\$\\\?\\\\\\\\\\\\\\\*:\)
+*echo 'Best School' > \\\*\\\\\'\"Best\ School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
 ##########A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten.
 *#!/bin/bash
 *ls -la > ls_cwd_content
@@ -80,4 +80,4 @@ Describing what each script is doing
 *cut -c 1 | paste -s -d ''
 ############################A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 *#!/bin/bash
-*tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d '' -f -1 | rev
+*tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
